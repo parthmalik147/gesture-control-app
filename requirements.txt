@@ -1,0 +1,88 @@
+# Core dependencies for hand tracking, machine learning, and image processing
+absl-py==2.3.1             # Abseil Python Common Libraries
+altgraph==0.17.4           # A dependency graph library
+astunparse==1.6.3          # Python AST unparser
+attrs==25.3.0              # Classes without boilerplate
+certifi==2025.7.14         # Mozilla's CA Bundle
+cffi==1.17.1               # Foreign Function Interface for Python calling C code
+charset-normalizer==3.4.2  # Universal character encoding detector
+click==8.1.8               # Composable command line interface toolkit
+colorama==0.4.6            # Cross-platform colored terminal text
+contourpy==1.3.0           # Python library for computing contours
+cycler==0.12.1             # Composable style cycles
+flatbuffers==25.2.10       # Efficient cross platform serialization library
+fonttools==4.59.0          # Tools for manipulating fonts
+gast==0.6.0                # Google Analytics for TensorFlow
+google-pasta==0.2.0        # A tool to transpile Python to Python
+grpcio==1.73.1             # gRPC Python
+h5py==3.14.0               # HDF5 for Python
+idna==3.10                 # Internationalized Domain Names in Applications
+importlib_metadata==8.7.0  # Read metadata from installed packages
+importlib_resources==6.5.2 # Read resources from Python packages
+jax==0.4.30                # JAX is Autograd and XLA
+jaxlib==0.4.30             # XLA libraries for JAX
+joblib==1.5.1              # Lightweight pipelining for Python
+keras==3.10.0              # Deep learning API
+kiwisolver==1.4.7          # A fast implementation of the Cassowary constraint solver
+libclang==18.1.1           # Python bindings for LibClang
+Markdown==3.8.2            # Python implementation of Markdown
+markdown-it-py==3.0.0      # Markdown parser done right
+MarkupSafe==3.0.2          # Implements a MarkupSafe string for Python
+matplotlib==3.9.4          # Comprehensive library for creating static, animated, and interactive visualizations
+mdurl==0.1.2               # Markdown URL utilities
+mediapipe==0.10.14         # For hand landmark detection (mp)
+ml_dtypes==0.5.1           # Dtypes for machine learning
+MouseInfo==0.1.3           # Get the mouse cursor's position
+namex==0.1.0               # Name mangling for Python
+numpy==2.0.2               # Fundamental package for scientific computing with Python
+opencv-contrib-python==4.12.0.88 # OpenCV Contrib Python bindings
+opencv-python==4.12.0.88   # For computer vision tasks (cv2)
+opt_einsum==3.4.0          # Optimizing einsum expressions
+optree==0.16.0             # A library for working with nested structures
+packaging==25.0            # Core utilities for Python packages
+pefile==2023.2.7           # Parse Windows PE files
+pillow==11.3.0             # Python Imaging Library (Fork)
+protobuf==4.25.8           # Protocol Buffers
+PyAutoGUI==0.9.54          # For simulating keyboard/mouse events (volume, scroll, media, window control)
+pycparser==2.22            # C parser in Python
+PyGetWindow==0.0.9         # A cross-platform module for obtaining GUI window information
+Pygments==2.19.2           # A generic syntax highlighter
+pyinstaller==6.14.2        # Bundles Python applications into standalone executables
+pyinstaller-hooks-contrib==2025.6 # Community maintained hooks for PyInstaller
+PyMsgBox==1.0.9            # A cross-platform module for displaying simple message boxes
+pyparsing==3.2.3           # A general purpose framework for creating parsers
+pyperclip==1.9.0           # Cross-platform clipboard functions
+pypiwin32==223             # Python for Windows (pywin32)
+PyQt5==5.15.9              # Python bindings for Qt5
+pyqt5-plugins==5.15.9.2.3  # PyQt5 plugins
+PyQt5-Qt5==5.15.2          # Qt5 for PyQt5
+pyqt5-tools==5.15.9.3.3    # Tools for PyQt5
+PyQt5_sip==12.17.0         # Python bindings for Qt5 (SIP)
+PyRect==0.2.0              # A simple Rect class for Python
+PyScreeze==1.0.1           # A cross-platform screenshot module
+python-dateutil==2.9.0.post0 # Extensions to the datetime module
+python-dotenv==1.1.1       # Reads key-value pairs from a .env file
+pytweening==1.2.0          # A simple library for tweening
+pywin32==311               # Python for Windows (pywin32)
+pywin32-ctypes==0.2.3      # A ctypes-based pywin32
+qt5-applications==5.15.2.2.3 # Qt5 applications
+qt5-tools==5.15.2.1.3      # Qt5 tools
+requests==2.32.4           # Python HTTP for Humans
+rich==14.0.0               # Rich text and beautiful formatting in the terminal
+scikit-learn==1.6.1        # Machine learning in Python
+scipy==1.13.1              # Scientific tools for Python
+screen_brightness_control==0.24.2 # For adjusting screen brightness
+six==1.17.0                # Python 2 and 3 compatibility utilities
+sounddevice==0.5.2         # PortAudio bindings for Python
+tensorboard==2.19.0        # TensorFlow's visualization toolkit
+tensorboard-data-server==0.7.2 # Data server for TensorBoard
+tensorflow==2.19.0         # For building and training the neural network model
+tensorflow-io-gcs-filesystem==0.31.0 # TensorFlow I/O GCS File System
+termcolor==3.1.0           # ANSI color formatting for output in terminal
+threadpoolctl==3.6.0       # Manage the maximal number of threads in a thread pool
+typing_extensions==4.14.1  # Backported and experimental type hints
+urllib3==2.5.0             # HTTP library with thread-safe connection pooling
+Werkzeug==3.1.3            # A comprehensive WSGI web application library
+WMI==1.5.1                 # A Python wrapper for Windows Management Instrumentation
+wrapt==1.17.2              # A Python module for decorators, wrappers and monkey patching
+zipp==3.23.0               # Pathlib-compatible object wrapper for zip files
