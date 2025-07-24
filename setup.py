@@ -13,13 +13,13 @@ with open('requirements.txt') as f:
 
 setup(
     name='gesture_control_app',
-    version='0.1.0', # Your current version
-    author='Parth Malik', # Replace with your name
-    author_email='parth.email@example.com', # Replace with your email
+    version='0.1.0', 
+    author='parthmalik147', 
+    author_email='parth.email@example.com',
     description='A console-based application for controlling your computer using hand gestures.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/your-username/gesture-control-app', # Replace with your GitHub repo URL
+    url='https://github.com/parthmalik147/gesture-control-app.git',
     packages=find_packages(where='src'), # Look for packages in the 'src' directory
     package_dir={'': 'src'}, # Tell setuptools that packages are under 'src'
     include_package_data=True, # Include non-code files specified in MANIFEST.in or setup.cfg
@@ -42,7 +42,7 @@ setup(
     ],
     python_requires='>=3.8',
     # Data files (these are usually placed outside source code but can be included if part of package)
-    # data_files=[
-    #     ('config', ['config/app_config.json']),
-    # ],
+     data_files=[
+         ('config', ['config/app_config.json']),
+     ],
 )
